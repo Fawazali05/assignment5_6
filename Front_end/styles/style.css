@@ -1,0 +1,72 @@
+#update {
+  display: none;
+}
+
+body {
+  background: linear-gradient(to right, #1e3c72, #2a5298); /* Deep blue gradient */
+  color: #f8f9fa;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  min-height: 100vh;
+}
+
+/* Form and Text Styles */
+input, textarea {
+  background-color: #f1f3f5 !important;
+  border-color: #ced4da !important;
+  color: #212529 !important;
+  font-weight: 500 !important;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+/* Container box shadow and background */
+.shadow {
+  box-shadow: 0 0.8rem 1.4rem rgba(0, 0, 0, 0.25) !important;
+  background-color: #ffffff;
+  color: #212529;
+}
+
+/* Buttons */
+#add {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #fff;
+  border: none;
+}
+
+#add:hover {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  color: #fff;
+}
+
+#update {
+  background: linear-gradient(to right, #38ef7d, #11998e);
+  color: #fff;
+  border: none;
+}
+
+#update:hover {
+  background: linear-gradient(to right, #11998e, #38ef7d);
+  color: #fff;
+}
+
+/* Table */
+table {
+  background-color: #343a40;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #495057;
+  color: #f8f9fa;
+}
+
+tbody tr {
+  transition: background-color 0.2s ease-in-out;
+}
+
+tbody tr:hover {
+  background-color: #6c757d;
+}
